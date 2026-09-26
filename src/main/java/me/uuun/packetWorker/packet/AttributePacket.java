@@ -1,4 +1,4 @@
-package me.uuun.packetWorker.damage;
+package me.uuun.packetWorker.packet;
 
 import net.minecraft.world.entity.ai.attributes.AttributeInstance;
 import org.bukkit.entity.Player;

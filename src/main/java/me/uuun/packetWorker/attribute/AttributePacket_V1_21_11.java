@@ -1,6 +1,6 @@
-package me.uuun.packetWorker.packets;
+package me.uuun.packetWorker.attribute;
 
-import me.uuun.packetWorker.damage.AttributePacket;
+import me.uuun.packetWorker.packet.AttributePacket;
 import net.minecraft.network.protocol.game.ClientboundUpdateAttributesPacket;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.entity.ai.attributes.AttributeInstance;

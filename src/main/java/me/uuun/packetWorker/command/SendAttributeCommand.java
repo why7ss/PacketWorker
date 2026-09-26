@@ -2,12 +2,8 @@ package me.uuun.packetWorker.command;
 
 import lombok.RequiredArgsConstructor;
 import me.uuun.packetWorker.PacketWorker;
-import net.minecraft.core.Holder;
-import net.minecraft.world.effect.MobEffectInstance;
-import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.ai.attributes.AttributeInstance;
 import net.minecraft.world.entity.ai.attributes.Attributes;
-import org.bukkit.attribute.Attribute;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;

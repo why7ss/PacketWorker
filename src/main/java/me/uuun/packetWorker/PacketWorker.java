@@ -2,8 +2,8 @@ package me.uuun.packetWorker;
 
 import lombok.Getter;
 import me.uuun.packetWorker.command.SendAttributeCommand;
-import me.uuun.packetWorker.damage.AttributePacket;
-import me.uuun.packetWorker.packets.AttributePacket_V1_21_11;
+import me.uuun.packetWorker.packet.AttributePacket;
+import me.uuun.packetWorker.attribute.AttributePacket_V1_21_11;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class PacketWorker extends JavaPlugin {
@@ -19,8 +19,8 @@ public final class PacketWorker extends JavaPlugin {
     }
 
     public void setupEffects(){
-        String minecraftVersion = getServer().getMinecraftVersion(); // "1.21.11"
-        String bukkitVersion = getServer().getBukkitVersion();        // "1.21.11-R0.1-SNAPSHOT"
+        String minecraftVersion = getServer().getMinecraftVersion();
+        String bukkitVersion = getServer().getBukkitVersion();
         getLogger().info("Обнаруженная версия сервера: " + minecraftVersion + " | " + bukkitVersion);
 
         switch (minecraftVersion) {
