@@ -1,0 +1,14 @@
+name: PacketWorker
+description: $description
+prefix: PacketWorker
+version: '${version}'
+
+main: me.uuun.packetWorker.PacketWorker
+api-version: '1.21.11'
+load: POSTWORLD
+
+authors: [ uuun ]
+website: why7ss.github.io
+commands:
+  sendeffect: {}
+  showeffects: {}
